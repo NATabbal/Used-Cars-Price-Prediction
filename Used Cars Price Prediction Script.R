@@ -1,0 +1,5 @@
+install.packages("readxl", "readr")
+library(readxl)
+library(readr)
+train_set <- read_csv("train-data.csv")
+test_set <- read_csv("test-data.csv")
